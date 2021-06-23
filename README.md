@@ -3,7 +3,7 @@ A Xray backend framework that can easily support many panels.
 
 一个基于Xray的后端框架，支持V2ay,Trojan,Shadowsocks协议，极易扩展，支持多面板对接
 
-Find the source code here: [MittWillson/XrayR](https://github.com/MittWillson/XrayR)
+Find the source code here: [MittWillson/MordenX](https://github.com/MittWillson/MordenX)
 
 # 详细使用教程
 
@@ -12,7 +12,7 @@ Find the source code here: [MittWillson/XrayR](https://github.com/MittWillson/Xr
 # 一键安装
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/MittWillson/XrayR-release/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MittWillson/MordenX-Release/master/install.sh)
 ```
 # Docker 安装
 
@@ -27,8 +27,8 @@ curl -fsSL https://get.docker.com | bash -s docker
 curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
-1. `git clone https://github.com/MittWillson/XrayR-release`
-2. `cd XrayR-release`
+1. `git clone https://github.com/MittWillson/MordenX-Release`
+2. `cd MordenX-Release`
 3. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
 4. 启动docker：`docker-compose up -d`
